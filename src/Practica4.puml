@@ -1,0 +1,6 @@
+@startuml
+:Ciudadano:
+:Ciudadano extranjero:
+usecase (Registrar entrada)
+usecase (Tomar huellas)
+@enduml
