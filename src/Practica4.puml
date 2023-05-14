@@ -3,4 +3,8 @@
 :Ciudadano extranjero:
 usecase (Registrar entrada)
 usecase (Tomar huellas)
+:Ciudadano extranjero: --> :Ciudadano:
+:Ciudadano: -- (Registrar entrada)
+:Ciudadano extranjero: -- (Tomar huellas)
+(Tomar huellas) ..> (Registrar entrada):<<Extend>>
 @enduml
