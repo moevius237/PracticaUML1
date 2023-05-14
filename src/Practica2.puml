@@ -7,4 +7,12 @@ usecase (Confirmar)
 usecase (Registrarse)
 usecase (Pagar con tarjeta)
 usecase (Pagar con transferencia)
+:new Actor: -- (Identificarse)
+:new Actor: -- (Pagar)
+:new Actor: -- (Eligir mensajero)
+:new Actor: -- (Confirmar)
+(Identificarse) <.. (Registrarse):<<extend>>
+(Pagar)<--(Pagar con tarjeta)
+(Pagar)<--(Pagar con transferencia)
+
 @enduml
