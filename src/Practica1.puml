@@ -1,11 +1,8 @@
 @startuml
-'https://plantuml.com/sequence-diagram
-
-autonumber
-
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
+:Cliente:
+usecase (Meter dinero)
+usecase (Pedir azucar)
+usecase (Pedir Procucto)
+usecase (Cancelar)
+usecase (Devolver dinero)
 @enduml
